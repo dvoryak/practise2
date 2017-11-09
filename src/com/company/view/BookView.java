@@ -1,7 +1,7 @@
 package com.company.view;
 
 import com.company.controller.MainController;
-import com.company.model.Book;
+import com.company.entity.Book;
 import com.company.service.ConsoleHelper;
 
 public class BookView {

@@ -1,6 +1,6 @@
 package com.company.data;
 
-import com.company.model.Book;
+import com.company.entity.Book;
 
 public class BookStorage {
     private Book[] data = new Book[100];

@@ -1,6 +1,6 @@
 package com.company.service;
 
-import com.company.model.Book;
+import com.company.entity.Book;
 
 import java.util.Comparator;
 

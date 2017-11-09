@@ -1,7 +1,7 @@
 package com.company.controller;
 
 import com.company.data.BookStorage;
-import com.company.model.Book;
+import com.company.entity.Book;
 import com.company.service.BookPublisherComparator;
 import com.company.service.ConsoleHelper;
 import com.company.view.BookView;
