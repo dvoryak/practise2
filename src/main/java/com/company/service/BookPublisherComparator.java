@@ -1,6 +1,6 @@
-package com.company.service;
+package main.java.com.company.service;
 
-import com.company.entity.Book;
+import main.java.com.company.entity.Book;
 
 import java.util.Comparator;
 

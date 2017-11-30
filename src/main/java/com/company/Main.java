@@ -1,8 +1,8 @@
-package com.company;
+package main.java.com.company;
 
-import com.company.controller.MainController;
-import com.company.service.FillerBookStorage;
-import com.company.view.BookView;
+import main.java.com.company.controller.MainController;
+import main.java.com.company.service.FillerBookStorage;
+import main.java.com.company.view.BookView;
 
 public class Main {
 

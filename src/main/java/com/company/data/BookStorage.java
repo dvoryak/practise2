@@ -1,6 +1,6 @@
-package com.company.data;
+package main.java.com.company.data;
 
-import com.company.entity.Book;
+import main.java.com.company.entity.Book;
 
 public class BookStorage {
     private Book[] data = new Book[100];

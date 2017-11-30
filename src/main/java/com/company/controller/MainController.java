@@ -1,16 +1,18 @@
-package com.company.controller;
+package main.java.com.company.controller;
 
-import com.company.data.BookStorage;
-import com.company.entity.Book;
-import com.company.service.BookPublisherComparator;
-import com.company.service.ConsoleHelper;
-import com.company.view.BookView;
+import main.java.com.company.data.BookStorage;
+import main.java.com.company.entity.Book;
+import main.java.com.company.service.BookPublisherComparator;
+import main.java.com.company.service.ConsoleHelper;
+import main.java.com.company.view.BookView;
+import org.apache.log4j.Logger;
 
 import java.util.Arrays;
 
 public class MainController {
     BookStorage bookStorage = BookStorage.getInstance();
     BookView view;
+    static Logger logger = Logger.getLogger(MainController.class);
 
     public MainController(BookView view) {
         this.view = view;
@@ -22,14 +24,19 @@ public class MainController {
             int x = ConsoleHelper.readInt();
             switch (x) {
                 case 1: view.fireEventShowAllBooks();
+                logger.info("Отобразить все книги");
                 break;
                 case 2: view.fireEventShowBooksByAuthor();
+                logger.info("Отобразить все книги по автору");
                 break;
                 case 3: view.fireEventShowBooksByPublisher();
+                logger.info("Отобразить все книги по издательству");
                 break;
                 case 4: view.fireEventShowBooksPublishedLaterThen();
+                logger.info("Отобразить все книги изданые позже ");
                 break;
                 case 5: view.fireEventShowSortedBooksByPublisher();
+                logger.info("Отобразить все книги отсортированые по издательству");
                 break;
                 case 0: System.exit(0);
             }

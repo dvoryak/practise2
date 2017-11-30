@@ -1,7 +1,7 @@
-package com.company.service;
+package main.java.com.company.service;
 
-import com.company.data.BookStorage;
-import com.company.entity.Book;
+import main.java.com.company.data.BookStorage;
+import main.java.com.company.entity.Book;
 
 public class FillerBookStorage {
     BookStorage storage = BookStorage.getInstance();

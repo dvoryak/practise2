@@ -1,8 +1,8 @@
-package com.company.view;
+package main.java.com.company.view;
 
-import com.company.controller.MainController;
-import com.company.entity.Book;
-import com.company.service.ConsoleHelper;
+import main.java.com.company.controller.MainController;
+import main.java.com.company.entity.Book;
+import main.java.com.company.service.ConsoleHelper;
 
 public class BookView {
     MainController controller;
